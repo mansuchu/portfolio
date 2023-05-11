@@ -13,7 +13,12 @@ function App() {
     <BrowserRouter>
    <div className='App'>
     <h1>App.js</h1>
-    
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/new" element={<New/>}/>
+      <Route path="/Diary" element={<Diary/>}/>
+      <Route path="Edit" element={<Edit/>}/>
+    </Routes>
    </div>
    </BrowserRouter>
   );
