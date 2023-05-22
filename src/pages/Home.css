@@ -42,3 +42,9 @@
   z-index: 4;
   top: 20px;
 }
+
+#myImg {
+  height: 200px;
+  object-fit: contain;
+  left: -180px;
+}
